@@ -13,6 +13,8 @@ int main()
 
     Class1 c1;
     std::cout << c1.GetResult() << std::endl;
+
+    std::cout << "Here is a change2\n"; // zmena vo vetve 'testik'
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
