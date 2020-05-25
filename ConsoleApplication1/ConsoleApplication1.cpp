@@ -3,11 +3,16 @@
 
 #include <iostream>
 
+#include "Class1.h"
+
 int main()
 {
     std::cout << "Hello World! Demos1 | ConsoleApplication1\n";
 
     std::cout << "Here is a change1\n";
+
+    Class1 c1;
+    std::cout << c1.GetResult() << std::endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
