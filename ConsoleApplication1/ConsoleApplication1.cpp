@@ -6,6 +6,8 @@
 #include "Class1.h"
 #include "Class2.h"
 
+//komentar!
+
 int main()
 {
     std::cout << "Hello World! Demos1 | ConsoleApplication1\n";
