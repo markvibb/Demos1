@@ -4,6 +4,7 @@
 #include <iostream>
 
 #include "Class1.h"
+#include "Class2.h"
 
 int main()
 {
@@ -15,6 +16,9 @@ int main()
     std::cout << c1.GetResult() << std::endl;
 
     std::cout << "Here is a change2\n"; // zmena vo vetve 'testik'
+
+    Class2 c2;
+    std::cout << "class2:" << c2.GetResult() << std::endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
